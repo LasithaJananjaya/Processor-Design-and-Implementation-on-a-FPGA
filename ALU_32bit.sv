@@ -15,7 +15,13 @@ module ALU_32bit(
             4'b0100: result = operandA ^ operandB; // XOR
             4'b0101: result = operandA << operandB; // SLL
             4'b0110: result = operandA >> operandB; // SRL
-            4'b0111: result = (operandA < operandB) ? 32'h1 : 32'h0; // SLT
+            4'b0111: result = ($signed(operandA) < $signed(operandB)) ? 32'h1 : 32'h0; // SLT
+            4'b1000: result = (operandA < operandB) ? 32'h1 : 32'h0; // SLTU
+            4'b1001: result = operandA >>> operandB; // SRA
+            4'b1010: result = (operandA == operandB) ? 32'h1 : 32'h0; // EQ
+            4'b1011: result = (operandA != operandB) ? 32'h1 : 32'h0; // NQ
+            4'b1100: result = (operandA >= operandB) ? 32'h1 : 32'h0; // SGEU
+            4'b1101: result = operandA * operandB; //MUL
             default: result = 32'h0;
         endcase
 
