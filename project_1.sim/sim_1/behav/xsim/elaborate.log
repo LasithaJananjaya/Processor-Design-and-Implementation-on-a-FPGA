@@ -1,0 +1,81 @@
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot processor_behav xil_defaultlib.processor xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 17 differs from formal bit length 16 for port 'data' [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/control_unit.sv:34]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 3 for port 'MemAcc' [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/processor.sv:64]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'ALU_CC' [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/processor.sv:68]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 7 for port 'opcode' [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/processor.sv:69]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 7 for port 'Funct7' [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/processor.sv:70]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 3 for port 'Funct3' [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/processor.sv:71]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'ALU_Result' [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/processor.sv:72]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 9 for port 'ra' [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/datapath.sv:41]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'data' [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/datapath.sv:47]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'd0' [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/datapath.sv:48]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'wdata' [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/datapath.sv:50]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'd0' [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/datapath.sv:52]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'd0' [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/datapath.sv:53]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'Imm_out' [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/datapath.sv:55]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'd0' [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/datapath.sv:57]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'operandA' [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/datapath.sv:58]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'data' [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/datapath.sv:62]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'wd' [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/datapath.sv:65]
+WARNING: [VRFC 10-5021] port 'funct7' is not connected on this instance [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/processor.sv:31]
+WARNING: [VRFC 10-3705] select index 6 into 'mem' is out of bounds [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/micro-instruction_memory.sv:32]
+WARNING: [VRFC 10-3705] select index 7 into 'mem' is out of bounds [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/micro-instruction_memory.sv:33]
+WARNING: [VRFC 10-3705] select index 8 into 'mem' is out of bounds [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/micro-instruction_memory.sv:34]
+WARNING: [VRFC 10-3705] select index 9 into 'mem' is out of bounds [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/micro-instruction_memory.sv:35]
+WARNING: [VRFC 10-3705] select index 10 into 'mem' is out of bounds [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/micro-instruction_memory.sv:38]
+WARNING: [VRFC 10-3705] select index 11 into 'mem' is out of bounds [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/micro-instruction_memory.sv:39]
+WARNING: [VRFC 10-3705] select index 12 into 'mem' is out of bounds [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/micro-instruction_memory.sv:40]
+WARNING: [VRFC 10-3705] select index 13 into 'mem' is out of bounds [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/micro-instruction_memory.sv:41]
+WARNING: [VRFC 10-3705] select index 14 into 'mem' is out of bounds [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/micro-instruction_memory.sv:42]
+WARNING: [VRFC 10-3705] select index 15 into 'mem' is out of bounds [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/micro-instruction_memory.sv:43]
+WARNING: [VRFC 10-3705] select index 16 into 'mem' is out of bounds [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/micro-instruction_memory.sv:44]
+WARNING: [VRFC 10-3705] select index 17 into 'mem' is out of bounds [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/micro-instruction_memory.sv:45]
+WARNING: [VRFC 10-3705] select index 18 into 'mem' is out of bounds [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/micro-instruction_memory.sv:46]
+WARNING: [VRFC 10-3705] select index 19 into 'mem' is out of bounds [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/micro-instruction_memory.sv:48]
+WARNING: [VRFC 10-3705] select index 20 into 'mem' is out of bounds [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/micro-instruction_memory.sv:49]
+WARNING: [VRFC 10-3705] select index 21 into 'mem' is out of bounds [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/micro-instruction_memory.sv:50]
+WARNING: [VRFC 10-3705] select index 22 into 'mem' is out of bounds [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/micro-instruction_memory.sv:51]
+WARNING: [VRFC 10-3705] select index 23 into 'mem' is out of bounds [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/micro-instruction_memory.sv:52]
+WARNING: [VRFC 10-3705] select index 24 into 'mem' is out of bounds [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/micro-instruction_memory.sv:55]
+WARNING: [VRFC 10-3705] select index 25 into 'mem' is out of bounds [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/micro-instruction_memory.sv:56]
+WARNING: [VRFC 10-3705] select index 26 into 'mem' is out of bounds [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/micro-instruction_memory.sv:57]
+WARNING: [VRFC 10-3705] select index 27 into 'mem' is out of bounds [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/micro-instruction_memory.sv:60]
+WARNING: [VRFC 10-3705] select index 28 into 'mem' is out of bounds [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/micro-instruction_memory.sv:61]
+WARNING: [VRFC 10-3705] select index 29 into 'mem' is out of bounds [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/micro-instruction_memory.sv:62]
+WARNING: [VRFC 10-3705] select index 30 into 'mem' is out of bounds [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/micro-instruction_memory.sv:63]
+WARNING: [VRFC 10-3705] select index 30 into 'mem' is out of bounds [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/micro-instruction_memory.sv:64]
+WARNING: [VRFC 10-3705] select index 30 into 'mem' is out of bounds [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/micro-instruction_memory.sv:65]
+WARNING: [VRFC 10-3705] select index 30 into 'mem' is out of bounds [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/micro-instruction_memory.sv:67]
+WARNING: [VRFC 10-3705] select index 31 into 'mem' is out of bounds [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/micro-instruction_memory.sv:70]
+WARNING: [VRFC 10-3705] select index 32 into 'mem' is out of bounds [D:/vivado_projects/project_1/project_1.srcs/sources_1/new/micro-instruction_memory.sv:73]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/vivado_projects/project_1/project_1.srcs/sources_1/new/control_unit.sv" Line 1. Module control_unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/vivado_projects/project_1/project_1.srcs/sources_1/new/datapath.sv" Line 1. Module datapath doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/vivado_projects/project_1/project_1.srcs/sources_1/new/program_counter.sv" Line 1. Module program_counter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/vivado_projects/project_1/project_1.srcs/sources_1/new/control_unit.sv" Line 1. Module control_unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/vivado_projects/project_1/project_1.srcs/sources_1/new/datapath.sv" Line 1. Module datapath doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/vivado_projects/project_1/project_1.srcs/sources_1/new/program_counter.sv" Line 1. Module program_counter doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.divide_clock
+Compiling module xil_defaultlib.micro_instruction_memory
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.program_counter
+Compiling module xil_defaultlib.instruction_memory
+Compiling module xil_defaultlib.data_interpreter
+Compiling module xil_defaultlib.mux_2(WIDTH=32)
+Compiling module xil_defaultlib.register_file
+Compiling module xil_defaultlib.immediate_generator
+Compiling module xil_defaultlib.ALU_32bit
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.processor
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot processor_behav
